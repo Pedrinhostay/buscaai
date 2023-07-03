@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: #fff;
+  left: 0;
+}
+.api{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.7rem;
+  font-size: 0.9rem;
+}
+.searchH{
+  background-color: #42b883;
+  padding: 0.7rem;
+}
+.searchContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.searchContainer .logo{
+  text-decoration: none;
+  font-size: 1.9rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-weight: bold;
+}
+.inputWrapper{
+  width: 600px;
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+
+  gap: 10px;
+}
+.inputWrapper label i{
+  color: #918f8f;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+.inputWrapper input{
+  padding: 10px;
+  width: 90%;
+  margin-left: 6px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  color: #919090;
+}
+.inputWrapper input::placeholder{
+  color: #919090;
+}
+.access{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: #fff;
+}
+
+.access p i{
+  font-size: 1rem;
+  margin-right: 5px;
+  cursor: pointer;
+
+}
+.access a{
+  transition: 0.3s linear;
+  text-decoration: none;
+  color: #fff;
+}
+.access a:hover{
+  border-bottom: 1px solid #000;
+}
+#cart{
+  color: #fff;
+  font-size: 2rem;
+}
+
+
+.navContainer {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.navContainer ul{
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.navContainer ul li a{
+  text-decoration: none;
+  transition: 0.2s all linear;
+  color: #000;
+  font-size: .9rem;
+}
+.navContainer ul li a:hover{
+  color: #42b883;
+
+}
+
+.swiper {
+  max-width: 100%;
+  height: 60vh;
+  margin-top: 10rem;
+  cursor: pointer;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-pagination span{
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.card:hover{
+  transform: translateY(-10px);
+}
+.card img{
+  width: 100px;
+  height: 100px;
+}
+main{
+  max-width: 100%;
+}
+.cardContainer{
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cardContent{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3rem;
+}
+.heading{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-bottom: 1px solid #42b883;
+}
+
+.news{
+  padding: 2rem 0.75rem ;
+}
+
+.carousel{
+  width: 100%;
+  padding: 1rem;
+}
+.carouselContainer{
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.carouselCard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  transition: 0.2s all linear;
+  width: 300px;
+  cursor: pointer;
+}
+.carouselCard:hover{
+transform: scale(1.1);
+}
+
+.descriptionImg{
+  text-align: center;
+}
+.descriptionImg h3{
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.descriptionImg span{
+  font-weight: 500;
+}
+.descriptionImg h4{
+  opacity: 0.5;
+  font-size: .7rem;
+}
+.descriptionImg button{
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+  font-size: 1.2rem;
+  border: none;
+  height: 40px;
+  transition: 0.5s ease;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.descriptionImg button:hover{
+  background-color: #42b883;
+  color: #fff;
+}
+.descriptionImg button i{
+  margin-right: 6px;
+}
+.grid{
+  display: grid;
+  max-width: 1200px;
+  grid-template-columns: repeat(2,1fr);
+  margin: 0 auto;
+  gap: 0.5rem;
+}
+.grid-item img{
+  max-width: 100%;
+  height: 100%;
+}
+.grid-item:nth-child(2){
+  grid-row: 1/3;
+}
